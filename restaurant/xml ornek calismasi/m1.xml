@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="Name" fieldtype="string" WIDTH="24"/>
+			<FIELD attrname="Code" fieldtype="integer" WIDTH="24"/>
+			<FIELD attrname="Color" fieldtype="string" WIDTH="24"/>
+			<FIELD attrname="OptionsType" fieldtype="string" WIDTH="24"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="2057"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW Name="Cat1" Code="" Color="$2000000" OptionsType=""/>
+		<ROW Name="Cat2" Code="" Color="$3000000" OptionsType=""/>
+		<ROW Name="Cat3" Code="" Color="$4000000" OptionsType=""/>
+		<ROW Name="Cat4" Code="" Color="$5000000" OptionsType=""/>
+		<ROW Name="Cat5" Code="" Color="$6000000" OptionsType=""/>
+		<ROW Name="Cat6" Code="" Color="$7000000" OptionsType="Test6"/>
+	</ROWDATA>
+</DATAPACKET>

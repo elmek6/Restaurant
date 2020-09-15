@@ -1,0 +1,40 @@
+unit global;
+
+
+
+
+interface
+
+uses Classes;
+
+
+type
+  TReceipt = class(TObject)
+  Private
+    FElemanSay      :Integer;
+//Protected
+  Public
+    function Fis :TStrings;
+    property ElemanSay: Integer read FElemanSay;
+  end;
+
+var
+
+  a:record
+     iItemCount     :integer;
+     gndTotal       :Double;
+     iIslemNo       :Integer;
+     xIslemZaman    :TDateTime;
+     sIslemiYapan   :String;
+  end;
+
+
+
+implementation
+
+function TReceipt.Fis :TStrings;
+begin
+  result.Add('abc');
+end;
+
+end.

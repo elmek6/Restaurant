@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="No" fieldtype="int" WIDTH="24"/>
+			<FIELD attrname="OptionsType" fieldtype="string" WIDTH="24"/>
+			<FIELD attrname="Name1" fieldtype="string" WIDTH="24"/>
+			<FIELD attrname="Price1" fieldtype="float" WIDTH="24"/>
+			<FIELD attrname="Color1" fieldtype="string" WIDTH="24"/>
+			<FIELD attrname="Name2" fieldtype="string" WIDTH="24"/>
+			<FIELD attrname="Price2" fieldtype="float" WIDTH="24"/>
+			<FIELD attrname="Color2" fieldtype="string" WIDTH="24"/>
+			<FIELD attrname="Name3" fieldtype="string" WIDTH="24"/>
+			<FIELD attrname="Price3" fieldtype="float" WIDTH="24"/>
+			<FIELD attrname="Color3" fieldtype="string" WIDTH="24"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="2057"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW OptionsType="SL" No="1" Name1="NO GP" Price1="1,50" Color1="$0000FF80" Name2="GP" Price2="1.50" Color2="$0000AA80" Name3="XGP" Price3="1.50" Color3="$0000DD80" />
+		<ROW OptionsType="SL" No="2" Name1="NO ON" Price1="1.50" Color1="$0080FF00" Name2="ON" Price2="2.50" Color2="$0000BB80" Name3="XON" Price3="1.50" Color3="$0000EE80" />
+		<ROW OptionsType="SL" No="3" Name1="NO BO" Price1="1.50" Color1="$000080FF" Name2="BO" Price2="2.50" Color2="$0000CC80" Name3="XBO" Price3="1.50" Color3="$0000FF00" />		
+	</ROWDATA>
+</DATAPACKET>
